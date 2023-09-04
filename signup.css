@@ -1,0 +1,151 @@
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.name{
+    float: left;
+    padding-top: 30px;
+    padding-left: 50px;
+    font-size: 22px;
+    font-style: italic;
+    color: aliceblue;
+}
+nav{
+    color: linear-gradient(#033747,#012733);;
+    height: 72px;
+    width: 100%;
+    background: linear-gradient(#033747,#012733);;
+}
+nav li{
+    color: white;
+}
+nav ul{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+nav ul li{
+    float: right;
+    width: 200px;
+    height: 73px;
+    background-color: black;
+    opacity: .8;
+    line-height: 73px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+nav ul li:hover{
+    background-color: green;
+}
+nav ul li:hover{
+         display: block;
+}
+nav ul li ul li{
+    display: none;
+}
+ul li:hover ul li{
+    display: block;
+}
+
+form{
+    background-color: cyan;
+    align-items: center;
+    border-radius: 15px;
+    padding-left:80px;
+    width: 700px;
+    height: 1000px ;
+    position: absolute;
+    top: 73px;
+    padding: 25px;
+    line-height: 45px;
+    margin-left: 8cm;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),
+                0 6px 20px 0 rgba(0,0,0,0.19);
+}
+body{
+    background-color: blue;
+}
+form h1{
+    background-color: white;
+    font-size: 22px;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+    text-align: center;
+    color: red;
+}
+form input{
+    border-left: none;
+    border-top: none;
+    border-bottom:1px solid red;
+    border-right: none;
+    color:black;
+    width:400px;
+    height: 40px;
+    background: transparent;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+    padding:5 5px;
+    margin-left: 100px;
+}
+form button{
+    margin: 2px;
+    padding: 8px;
+    color:rgb(23, 152, 23);
+    border-radius: 15px;
+    font-size: 40px;
+    background: blue;
+    border: 0;
+    width: 500px;
+    margin-top: 20px;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 80px;
+}
+form button:hover{
+    color:red;
+    border-radius: 15px;
+    font-size: 40px;
+    background: blue;
+    border: 0;
+    transition: all 1.5s ease;
+}
+form select{
+    border-radius: 15px;
+    height: 30px;
+    width: 220px;
+    margin-left: 100px;
+    margin-top: 30px;
+    background-color: cornflowerblue;
+    border: none;
+}
+form .error{
+    background: #F2DEDE;
+    color: #A94442;
+    padding: 10px;
+    width: 95%;
+    border-radius: 9px;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 20px;
+}
+.check{
+    margin-left: 100px;
+    
+}
+.check a{
+    color: #1cdc6c;
+    text-decoration: none;
+    font-weight: bolder;
+
+}
